@@ -1,0 +1,186 @@
+{
+  "model": "qwen3.8-flash",
+  "provider": "qwen",
+  "temperature": 0.3,
+  "disable_thinking": true,
+  "max_tokens": 2048,
+  "n_cases": 87,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "n_calls_planned": 435,
+  "per_seed": {
+    "s1": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s2": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s3": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s4": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s5": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    }
+  },
+  "hard_failures": [],
+  "note": "first_attempt_empty = 首轮 top5 为空/解析失败的行数；needed_retry = 需要重试才成功的行数；hard_failed = 连续重试后仍未落盘的病例数",
+  "runs": [
+    {
+      "source": "本文件旧格式（单次运行）",
+      "per_seed": {
+        "s1": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0
+        },
+        "s2": {
+          "first_attempt_empty": 1,
+          "needed_retry": 1
+        },
+        "s3": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0
+        },
+        "s4": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0
+        },
+        "s5": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0
+        }
+      },
+      "hard_failures": 0
+    },
+    {
+      "source": "本次运行",
+      "per_seed": {
+        "s1": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s2": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s3": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s4": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s5": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        }
+      },
+      "hard_failures": []
+    },
+    {
+      "source": "本次运行",
+      "per_seed": {
+        "s1": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s2": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s3": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s4": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s5": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        }
+      },
+      "hard_failures": []
+    }
+  ],
+  "aggregate_per_seed": {
+    "s1": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s2": {
+      "first_attempt_empty": 1,
+      "needed_retry": 1,
+      "hard_failed": 0
+    },
+    "s3": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s4": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s5": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    }
+  },
+  "hard_failures_total": 0,
+  "attempt_accounting": {
+    "logs": {
+      "pfixed_infer.log": {
+        "failed_attempts_by_seed": {
+          "s1": 3,
+          "s2": 4,
+          "s3": 3,
+          "s4": 3,
+          "s5": 1
+        },
+        "failed_attempts_total": 14
+      },
+      "pfixed_infer_resume.log": {
+        "failed_attempts_by_seed": {
+          "s2": 1
+        },
+        "failed_attempts_total": 1
+      }
+    },
+    "failed_attempts_total": 15,
+    "note": "failed_attempts = 返回空/解析失败的调用次数（=重试次数）；病例级计数见 per_seed"
+  },
+  "counter_note": "per_seed/aggregate_per_seed 是病例级计数，只在运行结束时写入；首轮运行（2026-09-19 08:53–09:43，日志 pfixed_infer.log）的计数早于累积格式，被续跑覆盖，其等价证据保留在 attempt_accounting（逐 seed 失败尝试数，14 次）与 failures.jsonl 中。要完整病例级账本请以 attempt_accounting 为准。"
+}

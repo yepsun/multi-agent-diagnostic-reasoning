@@ -1,0 +1,12 @@
+{
+  "n": 87,
+  "judged": false,
+  "role_providers": {
+    "Attending Internist": "deepseek",
+    "Pathophysiologist": "deepseek",
+    "Imaging & Laboratory Specialist": "deepseek",
+    "Epidemiologist": "deepseek",
+    "Skeptic / Challenger": "deepseek"
+  },
+  "synth_provider": "deepseek"
+}

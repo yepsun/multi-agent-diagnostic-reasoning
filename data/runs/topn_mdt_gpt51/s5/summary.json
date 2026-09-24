@@ -1,0 +1,12 @@
+{
+  "n": 87,
+  "judged": false,
+  "role_providers": {
+    "Attending Internist": "openai",
+    "Pathophysiologist": "openai",
+    "Imaging & Laboratory Specialist": "openai",
+    "Epidemiologist": "openai",
+    "Skeptic / Challenger": "openai"
+  },
+  "synth_provider": "openai"
+}

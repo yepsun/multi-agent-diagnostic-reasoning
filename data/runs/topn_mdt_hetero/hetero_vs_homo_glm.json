@@ -1,0 +1,356 @@
+{
+  "n": 87,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "judge": "glm-5.3-flash v3",
+  "judge_cache": "judge_cache_glm_v3.json",
+  "missing_pairs": 0,
+  "per_seed": {
+    "hetero_s1": {
+      "top1": 0.6322,
+      "top3": 0.8276,
+      "top5": 0.8621
+    },
+    "hetero_s2": {
+      "top1": 0.6207,
+      "top3": 0.8046,
+      "top5": 0.8506
+    },
+    "hetero_s3": {
+      "top1": 0.5977,
+      "top3": 0.7931,
+      "top5": 0.8506
+    },
+    "homo_s1": {
+      "top1": 0.6322,
+      "top3": 0.8391,
+      "top5": 0.8736
+    },
+    "homo_s2": {
+      "top1": 0.6437,
+      "top3": 0.8391,
+      "top5": 0.8736
+    },
+    "homo_s3": {
+      "top1": 0.5862,
+      "top3": 0.7816,
+      "top5": 0.8276
+    },
+    "Ax1_s1": {
+      "top1": 0.5632,
+      "top3": 0.7241,
+      "top5": 0.7701
+    },
+    "Ax1_s2": {
+      "top1": 0.5862,
+      "top3": 0.8046,
+      "top5": 0.8391
+    },
+    "Ax1_s3": {
+      "top1": 0.5747,
+      "top3": 0.7126,
+      "top5": 0.8046
+    }
+  },
+  "mean_sd": {
+    "hetero": {
+      "top1": {
+        "mean": 0.6169,
+        "sd": 0.0176
+      },
+      "top3": {
+        "mean": 0.8084,
+        "sd": 0.0176
+      },
+      "top5": {
+        "mean": 0.8544,
+        "sd": 0.0066
+      }
+    },
+    "homo": {
+      "top1": {
+        "mean": 0.6207,
+        "sd": 0.0304
+      },
+      "top3": {
+        "mean": 0.8199,
+        "sd": 0.0332
+      },
+      "top5": {
+        "mean": 0.8583,
+        "sd": 0.0266
+      }
+    },
+    "Ax1": {
+      "top1": {
+        "mean": 0.5747,
+        "sd": 0.0115
+      },
+      "top3": {
+        "mean": 0.7471,
+        "sd": 0.0501
+      },
+      "top5": {
+        "mean": 0.8046,
+        "sd": 0.0345
+      }
+    }
+  },
+  "mcnemar": {
+    "top1_hetero_vs_homo": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "hetero_only": 4,
+          "homo_only": 4,
+          "p": 1.0
+        },
+        {
+          "seed": 2,
+          "hetero_only": 5,
+          "homo_only": 7,
+          "p": 0.7744
+        },
+        {
+          "seed": 3,
+          "hetero_only": 8,
+          "homo_only": 7,
+          "p": 1.0
+        }
+      ],
+      "pooled": {
+        "hetero_only": 17,
+        "homo_only": 18,
+        "n_pairs": 261,
+        "p": 1.0
+      }
+    },
+    "top1_hetero_vs_Ax1": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "hetero_only": 8,
+          "Ax1_only": 2,
+          "p": 0.1094
+        },
+        {
+          "seed": 2,
+          "hetero_only": 8,
+          "Ax1_only": 5,
+          "p": 0.5811
+        },
+        {
+          "seed": 3,
+          "hetero_only": 7,
+          "Ax1_only": 5,
+          "p": 0.7744
+        }
+      ],
+      "pooled": {
+        "hetero_only": 23,
+        "Ax1_only": 12,
+        "n_pairs": 261,
+        "p": 0.0895
+      }
+    },
+    "top1_homo_vs_Ax1": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "homo_only": 8,
+          "Ax1_only": 2,
+          "p": 0.1094
+        },
+        {
+          "seed": 2,
+          "homo_only": 7,
+          "Ax1_only": 2,
+          "p": 0.1797
+        },
+        {
+          "seed": 3,
+          "homo_only": 8,
+          "Ax1_only": 7,
+          "p": 1.0
+        }
+      ],
+      "pooled": {
+        "homo_only": 23,
+        "Ax1_only": 11,
+        "n_pairs": 261,
+        "p": 0.0576
+      }
+    },
+    "top3_hetero_vs_homo": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "hetero_only": 1,
+          "homo_only": 2,
+          "p": 1.0
+        },
+        {
+          "seed": 2,
+          "hetero_only": 2,
+          "homo_only": 5,
+          "p": 0.4531
+        },
+        {
+          "seed": 3,
+          "hetero_only": 4,
+          "homo_only": 3,
+          "p": 1.0
+        }
+      ],
+      "pooled": {
+        "hetero_only": 7,
+        "homo_only": 10,
+        "n_pairs": 261,
+        "p": 0.6291
+      }
+    },
+    "top3_hetero_vs_Ax1": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "hetero_only": 10,
+          "Ax1_only": 1,
+          "p": 0.0117
+        },
+        {
+          "seed": 2,
+          "hetero_only": 4,
+          "Ax1_only": 4,
+          "p": 1.0
+        },
+        {
+          "seed": 3,
+          "hetero_only": 8,
+          "Ax1_only": 1,
+          "p": 0.0391
+        }
+      ],
+      "pooled": {
+        "hetero_only": 22,
+        "Ax1_only": 6,
+        "n_pairs": 261,
+        "p": 0.0037
+      }
+    },
+    "top3_homo_vs_Ax1": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "homo_only": 11,
+          "Ax1_only": 1,
+          "p": 0.0063
+        },
+        {
+          "seed": 2,
+          "homo_only": 6,
+          "Ax1_only": 3,
+          "p": 0.5078
+        },
+        {
+          "seed": 3,
+          "homo_only": 9,
+          "Ax1_only": 3,
+          "p": 0.146
+        }
+      ],
+      "pooled": {
+        "homo_only": 26,
+        "Ax1_only": 7,
+        "n_pairs": 261,
+        "p": 0.0013
+      }
+    },
+    "top5_hetero_vs_homo": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "hetero_only": 1,
+          "homo_only": 2,
+          "p": 1.0
+        },
+        {
+          "seed": 2,
+          "hetero_only": 1,
+          "homo_only": 3,
+          "p": 0.625
+        },
+        {
+          "seed": 3,
+          "hetero_only": 3,
+          "homo_only": 1,
+          "p": 0.625
+        }
+      ],
+      "pooled": {
+        "hetero_only": 5,
+        "homo_only": 6,
+        "n_pairs": 261,
+        "p": 1.0
+      }
+    },
+    "top5_hetero_vs_Ax1": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "hetero_only": 9,
+          "Ax1_only": 1,
+          "p": 0.0215
+        },
+        {
+          "seed": 2,
+          "hetero_only": 5,
+          "Ax1_only": 4,
+          "p": 1.0
+        },
+        {
+          "seed": 3,
+          "hetero_only": 5,
+          "Ax1_only": 1,
+          "p": 0.2188
+        }
+      ],
+      "pooled": {
+        "hetero_only": 19,
+        "Ax1_only": 6,
+        "n_pairs": 261,
+        "p": 0.0146
+      }
+    },
+    "top5_homo_vs_Ax1": {
+      "per_seed": [
+        {
+          "seed": 1,
+          "homo_only": 10,
+          "Ax1_only": 1,
+          "p": 0.0117
+        },
+        {
+          "seed": 2,
+          "homo_only": 4,
+          "Ax1_only": 1,
+          "p": 0.375
+        },
+        {
+          "seed": 3,
+          "homo_only": 3,
+          "Ax1_only": 1,
+          "p": 0.625
+        }
+      ],
+      "pooled": {
+        "homo_only": 17,
+        "Ax1_only": 3,
+        "n_pairs": 261,
+        "p": 0.0026
+      }
+    }
+  }
+}

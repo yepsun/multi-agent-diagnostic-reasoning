@@ -1,0 +1,1577 @@
+{
+  "n": 87,
+  "top1": 47,
+  "top3": 64,
+  "top5": 70,
+  "top1_acc": 0.54,
+  "top3_acc": 0.736,
+  "top5_acc": 0.805,
+  "details": [
+    {
+      "case_id": "aed4c94bdaa2a74c",
+      "top5": [
+        "Pelizaeus-Merzbacher Disease (PMD)",
+        "Krabbe Disease (Infantile Form)",
+        "Vanishing White Matter Disease",
+        "Mitochondrial Encephalopathy (e.g., Leigh Syndrome or Complex I Deficiency)",
+        "Aicardi-Goutières Syndrome"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "5322c7c47182bffd",
+      "top5": [
+        "Mesalamine-induced interstitial lung disease (pulmonary toxicity)",
+        "Cryptogenic organizing pneumonia (COP) secondary to inflammatory bowel disease",
+        "Pneumocystis jirovecii pneumonia (PCP)",
+        "Pulmonary alveolar proteinosis (secondary)",
+        "Hypersensitivity pneumonitis"
+      ],
+      "verdicts": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "hit": 3
+    },
+    {
+      "case_id": "368ec95c7abf0b09",
+      "top5": [
+        "Hypersensitivity pneumonitis due to Mycobacterium avium complex (Hot-tub lung)",
+        "Acute Histoplasmosis",
+        "Psittacosis (Chlamydia psittaci pneumonia)",
+        "Legionnaires' Disease",
+        "Diffuse Alveolar Hemorrhage secondary to Rofecoxib use"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "a7f4b353ab0798c8",
+      "top5": [
+        "IgG4-related ophthalmic disease",
+        "Extranodal marginal zone lymphoma (MALT lymphoma)",
+        "Tolosa-Hunt syndrome",
+        "Granulomatosis with polyangiitis (limited form)",
+        "Sphenoid wing meningioma"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "d360c247b700d5f6",
+      "top5": [
+        "Invasive Pulmonary Aspergillosis",
+        "Pulmonary Blastomycosis",
+        "Legionnaires' Disease (Legionella pneumophila Pneumonia)",
+        "Granulomatosis with Polyangiitis (GPA)",
+        "Cryptogenic Organizing Pneumonia (COP)"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "9c316f08f41e5ea6",
+      "top5": [
+        "Meconium Aspiration Syndrome (MAS) with Persistent Pulmonary Hypertension of the Newborn (PPHN)",
+        "Congenital Hyperinsulinism",
+        "Neonatal Sepsis (Early-Onset)",
+        "Hypoxic-Ischemic Encephalopathy (HIE)",
+        "Intracranial Hemorrhage (Subdural or Subgaleal)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "d108e23239bb6edf",
+      "top5": [
+        "AL Amyloidosis (Primary Systemic Amyloidosis)",
+        "Diabetic Nephropathy with Autonomic Neuropathy",
+        "Multiple Myeloma with Light Chain Deposition Disease",
+        "Fabry Disease",
+        "Hypertensive Heart Disease with Diastolic Dysfunction"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "2cfe20657be89da9",
+      "top5": [
+        "Chikungunya virus infection",
+        "Zika virus infection",
+        "Dengue fever",
+        "Acute HIV seroconversion syndrome",
+        "Parvovirus B19 infection"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "db9e748e06ddd433",
+      "top5": [
+        "Malignant pleural effusion secondary to lung adenocarcinoma",
+        "Chronic empyema due to aspiration pneumonia",
+        "Esophageal perforation (Boerhaave syndrome) with secondary empyema",
+        "Tuberculous pleuritis",
+        "Malignant Pleural Mesothelioma"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "hit": 5
+    },
+    {
+      "case_id": "f663c33e3b884878",
+      "top5": [
+        "Capnocytophaga canimorsus sepsis with disseminated intravascular coagulation (DIC)",
+        "Functional asplenia secondary to chronic alcohol abuse",
+        "Purpura fulminans",
+        "Alcoholic ketoacidosis and withdrawal syndrome",
+        "Septic cardiomyopathy"
+      ],
+      "verdicts": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "2a6bc4b06df26de1",
+      "top5": [
+        "Statin-induced necrotizing autoimmune myopathy (Anti-HMGCR myopathy)",
+        "Severe hypothyroidism with myxedema",
+        "Polymyositis or Dermatomyositis",
+        "Rhabdomyolysis secondary to acute kidney injury",
+        "Superimposed viral myositis"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "dee72803dc52861c",
+      "top5": [
+        "Invasive Pulmonary Aspergillosis",
+        "Severe Influenza A Pneumonia with Secondary Bacterial Superinfection",
+        "Acute Necrotizing Pneumonia due to Staphylococcus aureus (CA-MRSA)",
+        "Hantavirus Cardiopulmonary Syndrome",
+        "Acute Leukemia presenting as Febrile Neutropenic Pneumonia"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "2b4a1106ba6a4b31",
+      "top5": [
+        "Primary CNS Lymphoma",
+        "Neurosarcoidosis",
+        "High-Grade Glioma (Glioblastoma)",
+        "CNS Tuberculosis",
+        "Metastatic Disease from Occult Primary"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "09483c3f075cae01",
+      "top5": [
+        "Posterior Circulation Ischemic Stroke (Lateral Medullary or Cerebellar Infarction)",
+        "Acute Vestibular Neuritis",
+        "Benign Paroxysmal Positional Vertigo (BPPV)",
+        "Meningioma (Incidental Finding)",
+        "Metabolic Encephalopathy secondary to Hypophosphatemia"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "5586518306e0d2c5",
+      "top5": [
+        "Mycobacterium tuberculosis (Extrapulmonary/Tuberculous Lymphadenitis)",
+        "Non-Hodgkin Lymphoma (e.g., Diffuse Large B-Cell Lymphoma)",
+        "Bartonella henselae Infection (Cat Scratch Disease/Bacillary Angiomatosis)",
+        "Histoplasma capsulatum Infection",
+        "Kaposi Sarcoma (Visceral/Nodal Recurrence)"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "fa0e3a5e0e58ffbf",
+      "top5": [
+        "Common Variable Immunodeficiency (CVID) with associated enteropathy",
+        "Whipple's Disease (Tropheryma whipplei infection)",
+        "Autoimmune Enteropathy",
+        "Small Intestinal Bacterial Overgrowth (SIBO)",
+        "Intestinal Lymphoma"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "4d89cb0a3efff3df",
+      "top5": [
+        "Renal Cell Carcinoma (Clear Cell subtype)",
+        "Angiomyolipoma",
+        "Chronic Kidney Disease secondary to Diabetic Nephropathy and Hypertensive Nephrosclerosis",
+        "Analgesic Nephropathy",
+        "Oncocytoma"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "3bb1cc914311ff1c",
+      "top5": [
+        "Sarcoidosis",
+        "Lymphoma (Hodgkin or Non-Hodgkin)",
+        "Tuberculosis",
+        "Histoplasmosis",
+        "Bartonella henselae Infection (Cat Scratch Disease)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "64ca65d9a6a8296d",
+      "top5": [
+        "Chronic Eosinophilic Leukemia (CEL)",
+        "Strongyloides stercoralis Hyperinfection Syndrome",
+        "Myeloid/Lymphoid Neoplasms with Eosinophilia and Tyrosine Kinase Gene Fusion",
+        "Idiopathic Hypereosinophilic Syndrome (HES)",
+        "Visceral Larva Migrans (Toxocariasis)"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "hit": 4
+    },
+    {
+      "case_id": "a3636ccad4abbc16",
+      "top5": [
+        "Brucellosis",
+        "Tuberculosis",
+        "G6PD Deficiency with Acute Hemolysis",
+        "Q Fever (Coxiella burnetii)",
+        "Autoimmune Hemolytic Anemia"
+      ],
+      "verdicts": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "hit": 3
+    },
+    {
+      "case_id": "2ac46f852f9763a1",
+      "top5": [
+        "EBV-associated acute cerebellitis",
+        "EBV encephalitis with cerebellar predominance",
+        "Acute disseminated encephalomyelitis (ADEM)",
+        "Post-infectious autoimmune encephalitis (e.g., anti-GAD65 or anti-mGluR5)",
+        "Hemophagocytic Lymphohistiocytosis (HLH) with CNS involvement"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "15f2917d47452651",
+      "top5": [
+        "Acetaminophen-induced acute liver failure with hypoglycemic encephalopathy",
+        "Hepatic encephalopathy secondary to decompensated alcoholic cirrhosis or acute-on-chronic liver failure",
+        "Hypoxic-ischemic encephalopathy secondary to profound hypoglycemia",
+        "Reye-like syndrome / Mitochondrial hepatopathy",
+        "Sepsis-associated encephalopathy"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "ecfab9685ef3eb2b",
+      "top5": [
+        "Intestinal Tuberculosis",
+        "Crohn's Disease",
+        "Disseminated Histoplasmosis",
+        "Primary Gastrointestinal Lymphoma",
+        "Yersinia Enterocolitis"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "4babc77392cf90e2",
+      "top5": [
+        "Uterine Carcinosarcoma (Malignant Mixed Müllerian Tumor)",
+        "Tamoxifen-associated Endometrial Pathology",
+        "Metastatic Breast Cancer to the Uterus",
+        "Endometrial Polyp with Malignant Transformation",
+        "High-Grade Serous Carcinoma of the Endometrium"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "fce370dde9e5dfe0",
+      "top5": [
+        "Reactive Arthritis (formerly Reiter's Syndrome)",
+        "Severe Nutritional Deficiency (Vitamin A/Zinc) secondary to Alcoholism",
+        "Disseminated Gonococcal Infection / Gonococcal Conjunctivitis",
+        "Behçet's Disease",
+        "Granulomatosis with Polyangiitis (Wegener's)"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "573ae39ee295632f",
+      "top5": [
+        "Post-ictal excitotoxicity (Status Epilepticus)",
+        "MELAS syndrome",
+        "Bartonella henselae infection (Cat Scratch Disease) with neurologic involvement",
+        "Neurocysticercosis",
+        "Herpes Simplex Virus (HSV) Encephalitis"
+      ],
+      "verdicts": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "hit": 3
+    },
+    {
+      "case_id": "5b9fd6e27737cd2d",
+      "top5": [
+        "Osteogenesis Imperfecta Type I",
+        "Hypophosphatasia (Adult Form)",
+        "Ehlers-Danlos Syndrome (Kyphoscoliotic or Arthrochalasia type)",
+        "Osteogenesis Imperfecta Type IV",
+        "Fragile X Syndrome with coincidental Osteogenesis Imperfecta"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "649f28f8c7aaa678",
+      "top5": [
+        "Secondary Syphilis (Relapse or Reinfection)",
+        "Lichen Planus",
+        "HTLV-1 Associated Infective Dermatitis",
+        "Cutaneous T-Cell Lymphoma (Mycosis Fungoides / ATLL)",
+        "Pityriasis Rubra Pilaris"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "hit": 4
+    },
+    {
+      "case_id": "5657cd004762df0a",
+      "top5": [
+        "Graves' disease with thyrotoxic psychosis",
+        "Bipolar I Disorder with Psychotic Features",
+        "Major Depressive Disorder with Psychotic Features",
+        "Autoimmune Polyglandular Syndrome Type 3b",
+        "Thyroid Storm (Impending or Subclinical)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "bccf7bc842225b7f",
+      "top5": [
+        "Lymphomatoid Granulomatosis",
+        "Granulomatosis with Polyangiitis (Wegener's)",
+        "Invasive Pulmonary Aspergillosis",
+        "Pulmonary Nocardiosis",
+        "Tuberculosis"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "dc6e47f7b33ae0ba",
+      "top5": [
+        "Cryptogenic Organizing Pneumonia (COP)",
+        "Chronic Eosinophilic Pneumonia (CEP)",
+        "Hypersensitivity Pneumonitis (HP)",
+        "Recurrent Aspiration Pneumonitis",
+        "Drug-Induced Pulmonary Toxicity"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "2ff74e567f2b9871",
+      "top5": [
+        "Systemic Lupus Erythematosus (SLE) with Bullous SLE and Pemphigus Foliaceus overlap",
+        "Drug-Induced Lupus Erythematosus (DILE) or Drug-Triggered SLE Flare",
+        "Pemphigus Foliaceus (Co-existing Autoimmune Blistering Disease)",
+        "Antiphospholipid Syndrome (Secondary to SLE)",
+        "Paraneoplastic Pemphigus"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "964c5d85e4f1fe19",
+      "top5": [
+        "Systemic Mastocytosis",
+        "Multiple Myeloma",
+        "Metastatic Carcinoma",
+        "Langerhans Cell Histiocytosis",
+        "Primary Bone Lymphoma"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "919750b794e4f150",
+      "top5": [
+        "Angiolymphoid hyperplasia with eosinophilia (Epithelioid hemangioma)",
+        "Pyogenic granuloma (Lobular capillary hemangioma)",
+        "Squamous cell carcinoma",
+        "Kimura disease",
+        "Basal cell carcinoma"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "d178f7260123eead",
+      "top5": [
+        "Metastatic Breast Cancer (Luminal B subtype)",
+        "Metastatic Melanoma",
+        "Radiation-Induced Secondary Malignancy (e.g., Angiosarcoma or Sarcoma)",
+        "Primary Lung Adenocarcinoma",
+        "Squamous Cell Carcinoma Metastasis"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "2ec9319bb22bab06",
+      "top5": [
+        "Rasmussen's Encephalitis",
+        "Low-grade Glioma (e.g., Ganglioglioma or DNET)",
+        "Focal Cortical Dysplasia Type IIb",
+        "Autoimmune Encephalitis (Non-Rasmussen)",
+        "Mitochondrial Cytopathy (e.g., MELAS variant)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "d134ec13421cce8f",
+      "top5": [
+        "Osteoid Osteoma",
+        "Ewing Sarcoma",
+        "Chronic Osteomyelitis (Brodie's Abscess)",
+        "Langerhans Cell Histiocytosis (Eosinophilic Granuloma)",
+        "Intracortical Osteosarcoma"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "4884a30c3bbb8ba2",
+      "top5": [
+        "Synthetic Cathinone (Bath Salt) Intoxication",
+        "Rhabdomyolysis-induced Acute Kidney Injury",
+        "Stress-Induced Hyperglycemia",
+        "Serotonin Syndrome",
+        "Cocaine Intoxication"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "2a71478768daccb8",
+      "top5": [
+        "Systemic Sclerosis (Scleroderma) with Pulmonary Arterial Hypertension",
+        "Mixed Connective Tissue Disease (MCTD)",
+        "Systemic Lupus Erythematosus (SLE) with Pulmonary Hypertension",
+        "Idiopathic Pulmonary Arterial Hypertension (IPAH)",
+        "Pulmonary Venous Occlusive Disease (PVOD)"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "6b928753b342e6ab",
+      "top5": [
+        "Primary Cardiac Sarcoma (e.g., Angiosarcoma or Undifferentiated Pleomorphic Sarcoma)",
+        "Right Atrial Myxoma",
+        "Metastatic Renal Cell Carcinoma",
+        "Infective Endocarditis (Staphylococcus aureus)",
+        "Pulmonary Embolism with Tumor Emboli / Organized Thrombus in Transit"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "hit": 5
+    },
+    {
+      "case_id": "37877507e65d7edb",
+      "top5": [
+        "Listeria monocytogenes chorioamnionitis",
+        "Intraamniotic infection (Chorioamnionitis) due to polymicrobial flora or Group B Streptococcus/E. coli",
+        "Community-acquired Pneumonia",
+        "Acute Pyelonephritis",
+        "Viral syndrome (e.g., Influenza or Parvovirus B19)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "7dddf4e8adf99e05",
+      "top5": [
+        "Primary CNS Lymphoma",
+        "CNS Tuberculosis",
+        "Neurosarcoidosis",
+        "Intraventricular Neurocysticercosis",
+        "Ependymoma"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "d08906f19cfb6de4",
+      "top5": [
+        "Thoracic Actinomycosis",
+        "Tuberculosis (Mycobacterium tuberculosis)",
+        "Disseminated BCG infection (BCGosis)",
+        "Staphylococcus aureus Empyema Necessitatis",
+        "Lymphoma"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "ef7851bab262f2b3",
+      "top5": [
+        "Disseminated Histoplasmosis",
+        "Hemophagocytic Lymphohistiocytosis (HLH)",
+        "Tuberculous Lymphadenitis / Retroperitoneal TB",
+        "Lymphoma (e.g., Hodgkin or Non-Hodgkin)",
+        "Brucellosis"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "dec38bb490f42611",
+      "top5": [
+        "Active Granulomatosis with Polyangiitis (CNS Vasculitis)",
+        "Disseminated Fungal Infection (e.g., Aspergillosis or Mucormycosis) with Angioinvasion",
+        "Nonbacterial Thrombotic Endocarditis (Marantic Endocarditis)",
+        "Infective Endocarditis with Septic Emboli",
+        "Nocardiosis (CNS)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "b883e31f1d20703e",
+      "top5": [
+        "Salicylate (Aspirin) Toxicity",
+        "Diabetic Ketoacidosis (DKA)",
+        "Ethylene Glycol or Methanol Ingestion",
+        "Sepsis with Metabolic Acidosis",
+        "Inborn Error of Metabolism (e.g., Organic Acidemia)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "0ebd1464934e75f0",
+      "top5": [
+        "Syphilitic Proctitis (Secondary Syphilis)",
+        "Lymphogranuloma Venereum (Chlamydia trachomatis serovars L1-L3)",
+        "Herpes Simplex Virus Proctitis",
+        "Ulcerative Proctitis",
+        "Crohn's Disease"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "b236f257c507b245",
+      "top5": [
+        "Dyskeratosis Congenita (Telomere Biology Disorder)",
+        "Common Variable Immunodeficiency (CVID) with Nodular Regenerative Hyperplasia",
+        "Autoimmune Polyglandular Syndrome Type 1 (APS-1)",
+        "Congenital Disorder of Glycosylation (CDG)",
+        "Mitochondrial Cytopathy"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "8ba660b6cabc7aa1",
+      "top5": [
+        "Hypertrophic Cardiomyopathy (HCM) with Obstructive Physiology",
+        "Systemic Light-Chain (AL) Amyloidosis",
+        "Sarcoidosis with Cardiac Involvement",
+        "Lymphoma (e.g., Hodgkin or Non-Hodgkin)",
+        "Tuberculosis"
+      ],
+      "verdicts": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "hit": 3
+    },
+    {
+      "case_id": "eea2a2b397208688",
+      "top5": [
+        "Disseminated Histoplasmosis",
+        "Miliary Tuberculosis",
+        "Non-Hodgkin Lymphoma (e.g., Diffuse Large B-Cell or Burkitt)",
+        "Disseminated Coccidioidomycosis",
+        "Kaposi Sarcoma (Visceral/Pulmonary)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "05ae4e84d1db8465",
+      "top5": [
+        "Ankylosing Spondylitis with Andersson Lesion",
+        "Pyogenic Vertebral Osteomyelitis/Diskitis",
+        "SAPHO syndrome (Synovitis, Acne, Pustulosis, Hyperostosis, Osteitis)",
+        "Metastatic Malignancy",
+        "Tuberculous Spondylitis (Pott's Disease)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "a69d0fbafc261eb6",
+      "top5": [
+        "Severe ulcerative colitis flare with superimposed Clostridioides difficile infection",
+        "Cytomegalovirus (CMV) colitis complicating steroid-refractory ulcerative colitis",
+        "Active ulcerative colitis flare",
+        "Undiagnosed Crohn's disease misclassified as ulcerative colitis",
+        "Colorectal adenocarcinoma or dysplasia arising in chronic ulcerative colitis"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "b87ca702b90492e0",
+      "top5": [
+        "Milk-Alkali Syndrome",
+        "Primary Hyperparathyroidism",
+        "Multiple Myeloma",
+        "Sarcoidosis",
+        "Thiazide-Induced Hypercalcemia"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "122c19034adaa40e",
+      "top5": [
+        "Strongyloides stercoralis hyperinfection syndrome with secondary bacterial meningitis",
+        "Streptococcus pneumoniae meningitis",
+        "Listeria monocytogenes meningitis",
+        "Neisseria meningitidis meningitis",
+        "Idiopathic hypereosinophilic syndrome"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "2fde7f64b3e90a15",
+      "top5": [
+        "Ovarian Hyperthecosis",
+        "Androgen-Secreting Ovarian Tumor (e.g., Steroid Cell or Sertoli-Leydig Cell Tumor)",
+        "Exogenous Androgen Exposure",
+        "Polycystic Ovary Syndrome (PCOS) with Superimposed Pathology",
+        "Adrenal Androgen-Secreting Adenoma"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "ecc94e998f5d3cc4",
+      "top5": [
+        "Syphilis (Ocular Syphilis / Neurosyphilis)",
+        "Immune Reconstitution Inflammatory Syndrome (IRIS) unmasking Ocular Syphilis",
+        "Sarcoidosis",
+        "Lyme Disease (Borrelia burgdorferi infection)",
+        "Disseminated Mycobacterium avium–intracellulare (MAI) infection"
+      ],
+      "verdicts": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "018369114dab12e8",
+      "top5": [
+        "Right-sided Infective Endocarditis (likely Staphylococcus aureus) with Septic Pulmonary Emboli",
+        "Septic Thrombophlebitis (Peripheral or Lemierre's Syndrome variant)",
+        "Disseminated Gonococcal Infection",
+        "Tuberculosis (Miliary or Cavitary)",
+        "Adult-Onset Still's Disease"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "0ece1cc4704dd2d4",
+      "top5": [
+        "Delusional Infestation (secondary to substance withdrawal/intoxication)",
+        "Excoriation Disorder (Dermatillomania)",
+        "Porphyria Cutanea Tarda",
+        "Scabies Infestation",
+        "Hypophosphatemia"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "d018bc5a07e9f8af",
+      "top5": [
+        "Metastatic Crohn's Disease (Pulmonary)",
+        "Disseminated Histoplasmosis",
+        "Granulomatosis with Polyangiitis (GPA)",
+        "Lymphomatoid Granulomatosis",
+        "Septic Pulmonary Emboli from Occult Bacteremia"
+      ],
+      "verdicts": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "hit": 3
+    },
+    {
+      "case_id": "23f40e8af4fbab1c",
+      "top5": [
+        "Pheochromocytoma Crisis",
+        "Peripartum Cardiomyopathy",
+        "Amniotic Fluid Embolism (Late Presentation)",
+        "Thyroid Storm",
+        "Postpartum Preeclampsia/Eclampsia"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "7a0604d2b05fac63",
+      "top5": [
+        "Barium Toxicity (Acute Barium Poisoning)",
+        "Severe Hypokalemia secondary to Barium Toxicity",
+        "Primary Hyperaldosteronism (Conn's Syndrome)",
+        "Acute Myocardial Infarction with Cardiogenic Shock",
+        "Thyrotoxic Periodic Paralysis"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "a6cb1b31bd4dd95d",
+      "top5": [
+        "Idiopathic Portal Hypertension (Non-Cirrhotic Portal Fibrosis)",
+        "Visceral Leishmaniasis (Kala-azar)",
+        "Hepatic Schistosomiasis",
+        "Systemic Mastocytosis",
+        "Nodular Regenerative Hyperplasia"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "6eefee97104971a4",
+      "top5": [
+        "Metformin-associated lactic acidosis (MALA) precipitated by acute kidney injury and hypovolemia",
+        "Acute pancreatitis secondary to drug-induced etiology or ischemic injury",
+        "Salicylate toxicity (aspirin overdose)",
+        "Sepsis due to intra-abdominal source (e.g., cholecystitis or bowel ischemia)",
+        "Mesenteric ischemia"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "b4eead5812884df6",
+      "top5": [
+        "Anti-MDA5 antibody-positive dermatomyositis",
+        "Classic Dermatomyositis (with Interstitial Lung Disease)",
+        "Paraneoplastic Dermatomyositis",
+        "Antisynthetase Syndrome",
+        "Systemic Sclerosis-Myositis Overlap Syndrome"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "f2fd0695ca67a9f6",
+      "top5": [
+        "Invasive Squamous Cell Carcinoma of the Cervix",
+        "High-Grade Squamous Intraepithelial Lesion (HSIL) with Microinvasion",
+        "Cervical Tuberculosis",
+        "Primary Vaginal Squamous Cell Carcinoma",
+        "Chronic Ulcerative Herpes Simplex Virus (HSV) Disease"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "hit": 4
+    },
+    {
+      "case_id": "eae031b4f8f15a49",
+      "top5": [
+        "Lead Poisoning",
+        "Acute Intermittent Porphyria",
+        "Thalassemia Trait with Incidental Hepatitis",
+        "Arsenic Toxicity",
+        "Myelodysplastic Syndrome (MDS)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "5d3b3725f96ab5a4",
+      "top5": [
+        "Systemic Lupus Erythematosus (SLE) with Evans Syndrome",
+        "Evans Syndrome",
+        "Warm Autoimmune Hemolytic Anemia (wAIHA)",
+        "Herpes Simplex Virus Type 2 (HSV-2) Infection",
+        "Paroxysmal Cold Hemoglobinuria (PCH)"
+      ],
+      "verdicts": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "1e986adf90c642ca",
+      "top5": [
+        "Primary Breast Cancer (New Contralateral)",
+        "Bipolar I Disorder, Current Episode Depressed",
+        "Metastatic Non-Small Cell Lung Cancer to Breast",
+        "Chronic Kidney Disease Stage 3b",
+        "Medication-Induced Mood Instability / Polypharmacy Effect"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "46d76bab258674cb",
+      "top5": [
+        "Tuberculous Meningitis",
+        "Primary CNS Lymphoma",
+        "Glioblastoma Multiforme",
+        "Neurosarcoidosis",
+        "Coccidioidal Meningitis"
+      ],
+      "verdicts": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "hit": 3
+    },
+    {
+      "case_id": "b3b3034144b3f214",
+      "top5": [
+        "Acute Pulmonary Embolism",
+        "Deep Vein Thrombosis",
+        "Paradoxical Embolism via Patent Foramen Ovale",
+        "Occult Malignancy-associated Hypercoagulability (Trousseau Syndrome)",
+        "Antiphospholipid Syndrome"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "e409aa871dd90f95",
+      "top5": [
+        "Loeffler Endocarditis (Hypereosinophilic Syndrome)",
+        "Parasitic Infection (e.g., Strongyloides or Toxocara) causing Secondary Hypereosinophilia",
+        "Antiphospholipid Syndrome (APS)",
+        "Peripartum Cardiomyopathy with Intracardiac Thrombus",
+        "Non-bacterial Thrombotic Endocarditis (Marantic Endocarditis)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "95a40a9c13ea3cdb",
+      "top5": [
+        "Disseminated Histoplasmosis",
+        "Extranodal NK/T-cell Lymphoma",
+        "Squamous Cell Carcinoma of the Tonsil",
+        "Refractory Herpes Simplex Virus Pharyngitis",
+        "Mucormycosis (Zygomycosis)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "6f5b538ccb2b808a",
+      "top5": [
+        "Sézary Syndrome",
+        "Mycosis Fungoides (Erythrodermic Variant)",
+        "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) Syndrome",
+        "Psoriatic Erythroderma",
+        "Atopic Dermatitis with Secondary Infection"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "68c51bd4452e58bd",
+      "top5": [
+        "Metastatic Melanoma",
+        "Paraneoplastic Hypoglycemia (Non-Islet Cell Tumor Hypoglycemia)",
+        "Adrenal Insufficiency",
+        "Drug-Induced Hypoglycemia",
+        "Occult Brain Metastases"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "05e7b1b52732964a",
+      "top5": [
+        "Acute Ischemic Stroke due to Right Middle Cerebral Artery (M1) Occlusion",
+        "Cardioembolic Stroke (Cryptogenic/Paroxysmal Atrial Fibrillation)",
+        "Large-Artery Atherosclerosis with In-Situ Thrombosis or Artery-to-Artery Embolism",
+        "Transient Ischemic Attacks (TIAs) as Prodrome",
+        "Occult Malignancy-associated Hypercoagulability (Trousseau Syndrome/NBTE)"
+      ],
+      "verdicts": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "eff8a9b60b6f59fa",
+      "top5": [
+        "Severe Methylenetetrahydrofolate Reductase (MTHFR) Deficiency",
+        "Pontomedullary Hypoplasia with Central Apnea",
+        "Cerebral Folate Deficiency (CFD)",
+        "Hypomyelinating Leukodystrophy",
+        "Cerebral Venous Sinus Thrombosis"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "deccd667c45b195b",
+      "top5": [
+        "Celiac Disease",
+        "Severe Vitamin B12 Deficiency Neuropsychiatric Syndrome",
+        "Autoimmune Polyglandular Syndrome Type 3b",
+        "Hashimoto's Encephalopathy",
+        "Anti-NMDA Receptor Encephalitis"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "8ed18f9d9dba679d",
+      "top5": [
+        "Primary Cutaneous Anaplastic Large-Cell Lymphoma (pcALCL)",
+        "Lymphomatoid Papulosis (LyP) Type C",
+        "Systemic ALK-negative Anaplastic Large-Cell Lymphoma with secondary cutaneous involvement",
+        "Cutaneous Squamous Cell Carcinoma (cSCC)",
+        "Reactive CD30+ Lymphoproliferative Disorder"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "0e187609d0336b07",
+      "top5": [
+        "Acute Hepatitis A Virus Infection",
+        "Drug-Induced Liver Injury (DILI)",
+        "Autoimmune Hepatitis",
+        "Secondary Syphilis with Hepatic Involvement",
+        "Acute Hepatitis B Virus Infection"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "18077c34d58728ce",
+      "top5": [
+        "Pertussis (Bordetella pertussis infection)",
+        "Mycoplasma pneumoniae infection",
+        "Asthma (Cough-variant or Viral-induced exacerbation)",
+        "Upper Airway Cough Syndrome (Postnasal Drip) / Allergic Rhinitis",
+        "Foreign Body Aspiration"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "08c9ce5ad82489d9",
+      "top5": [
+        "Paradoxical embolism via patent foramen ovale secondary to deep venous thrombosis from May-Thurner syndrome",
+        "Renal-cell carcinoma causing hypercoagulability (Trousseau syndrome)",
+        "Acute pulmonary embolism with right ventricular strain",
+        "Hemorrhagic transformation of ischemic stroke",
+        "Spontaneous left internal carotid artery dissection"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "06d3b1cd615b5020",
+      "top5": [
+        "Acute ischemic stroke (likely left MCA territory) secondary to sickle cell disease vasculopathy",
+        "Ruptured intracranial aneurysm (subarachnoid hemorrhage)",
+        "Cerebral venous sinus thrombosis",
+        "Moyamoya syndrome with transient ischemic attack or completed stroke",
+        "Posterior reversible encephalopathy syndrome (PRES)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "ec180c7a228eb794",
+      "top5": [
+        "Cytomegalovirus (CMV) Proctitis",
+        "Lymphogranuloma Venereum (LGV)",
+        "Herpes Simplex Virus (HSV) Proctitis",
+        "Anal Squamous Cell Carcinoma",
+        "Crohn's Disease"
+      ],
+      "verdicts": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "hit": 2
+    },
+    {
+      "case_id": "216f746d6d237cc7",
+      "top5": [
+        "Metastatic Nonseminomatous Germ Cell Tumor (NSGCT)",
+        "Concurrent Graves' Disease",
+        "Paraneoplastic Hyperthyroidism due to hCG Cross-Reactivity",
+        "Choriocarcinoma",
+        "Lymphoma"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "hit": 4
+    },
+    {
+      "case_id": "b24f96f6d8aca637",
+      "top5": [
+        "Evans Syndrome (Autoimmune Hemolytic Anemia and Immune Thrombocytopenia)",
+        "Primary Immune Thrombocytopenia (ITP) with concurrent Autoimmune Hemolytic Anemia",
+        "Viral-Induced Autoimmune Cytopenia (e.g., Parvovirus B19 or EBV triggering Evans-like syndrome)",
+        "Acute Lymphoblastic Leukemia (ALL) presenting with autoimmune phenomena",
+        "Common Variable Immunodeficiency (CVID) or Primary Antibody Deficiency with immune dysregulation"
+      ],
+      "verdicts": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": null
+    },
+    {
+      "case_id": "dfb87e091a38d9ab",
+      "top5": [
+        "Ulceroglandular Tularemia (Francisella tularensis)",
+        "Cutaneous Anthrax (Bacillus anthracis)",
+        "Sporotrichosis (Sporothrix schenckii)",
+        "Rickettsialpox or Spotted Fever Group Rickettsiosis",
+        "Brown Recluse Spider Bite (Loxosceles reclusa)"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    },
+    {
+      "case_id": "aa4abb606a4fec3f",
+      "top5": [
+        "Sarcoidosis",
+        "Tuberculosis",
+        "Waldenström Macroglobulinemia",
+        "Multiple Myeloma",
+        "Lymphoma"
+      ],
+      "verdicts": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "hit": 1
+    }
+  ]
+}

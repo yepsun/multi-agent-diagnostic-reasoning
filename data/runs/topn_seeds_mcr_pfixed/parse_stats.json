@@ -1,0 +1,115 @@
+{
+  "model": "qwen3.8-flash",
+  "provider": "qwen",
+  "temperature": 0.3,
+  "disable_thinking": true,
+  "max_tokens": 4096,
+  "timeout": 300,
+  "call": "topn_mcr.call_top5",
+  "n_cases": 406,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "max_workers": 6,
+  "n_calls_planned": 2030,
+  "per_seed": {
+    "s1": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s2": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s3": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s4": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s5": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    }
+  },
+  "hard_failures": [],
+  "note": "first_attempt_empty = 首轮（含 call_top5 内部 3 次）无有效 top5 的行数；needed_retry = 需要第二轮外层尝试才成功的行数；hard_failed = 外层重试用尽仍未落盘的病例数",
+  "runs": [
+    {
+      "source": "本次运行",
+      "per_seed": {
+        "s1": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s2": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s3": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s4": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s5": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        }
+      },
+      "hard_failures": []
+    }
+  ],
+  "aggregate_per_seed": {
+    "s1": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s2": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s3": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s4": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s5": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    }
+  },
+  "hard_failures_total": 0,
+  "attempt_accounting": {
+    "logs": {},
+    "failed_attempts_total": 0,
+    "note": "failed_attempts = 外层尝试中返回空/解析失败的次数（每轮外层尝试内部 topn_mcr.call_top5 还会自带 3 次调用）"
+  },
+  "counter_note": "per_seed/aggregate_per_seed 为病例级计数，只在每次运行结束时写入；尝试级账本在 attempt_accounting（含未落盘的尝试）。"
+}

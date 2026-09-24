@@ -1,0 +1,5 @@
+*.env
+*.pdf
+data/er_reason*
+**/topn_erreason*
+**/*workup*

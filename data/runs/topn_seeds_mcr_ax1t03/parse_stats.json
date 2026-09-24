@@ -1,0 +1,110 @@
+{
+  "model": "qwen3.8-flash",
+  "provider": "qwen",
+  "temperature": 0.3,
+  "disable_thinking": true,
+  "max_tokens": 4096,
+  "timeout": 300,
+  "call": "topn_mcr.call_top5",
+  "prompt": "A_TOPN_PROMPT.format(case_text=c[\"text\"])",
+  "n_cases": 406,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "max_workers": 6,
+  "n_calls_planned": 2030,
+  "per_seed": {
+    "s1": {
+      "first_attempt_empty": 1,
+      "needed_retry": 1,
+      "hard_failed": 0
+    },
+    "s2": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s3": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s4": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s5": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    }
+  },
+  "runs": [
+    {
+      "source": "本次运行",
+      "per_seed": {
+        "s1": {
+          "first_attempt_empty": 1,
+          "needed_retry": 1,
+          "hard_failed": 0
+        },
+        "s2": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s3": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s4": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        },
+        "s5": {
+          "first_attempt_empty": 0,
+          "needed_retry": 0,
+          "hard_failed": 0
+        }
+      },
+      "hard_failures": []
+    }
+  ],
+  "aggregate_per_seed": {
+    "s1": {
+      "first_attempt_empty": 1,
+      "needed_retry": 1,
+      "hard_failed": 0
+    },
+    "s2": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s3": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s4": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    },
+    "s5": {
+      "first_attempt_empty": 0,
+      "needed_retry": 0,
+      "hard_failed": 0
+    }
+  },
+  "hard_failures": [],
+  "hard_failures_total": 0,
+  "note": "first_attempt_empty = 首轮（含 call_top5 内部 3 次调用）无有效 top5 的行数；needed_retry = 需要第二轮外层尝试才成功的行数；hard_failed = 外层重试用尽、未落盘（下轮续跑会重试）的病例数"
+}

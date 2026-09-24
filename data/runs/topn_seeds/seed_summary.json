@@ -1,0 +1,132 @@
+{
+  "per_seed": {
+    "Ax1_s1": {
+      "n": 87,
+      "top1": 44,
+      "top3": 59,
+      "top5": 63
+    },
+    "Ax1_s2": {
+      "n": 87,
+      "top1": 46,
+      "top3": 66,
+      "top5": 68
+    },
+    "Ax1_s3": {
+      "n": 87,
+      "top1": 46,
+      "top3": 59,
+      "top5": 67
+    },
+    "Ax1_s4": {
+      "n": 87,
+      "top1": 43,
+      "top3": 62,
+      "top5": 67
+    },
+    "Ax1_s5": {
+      "n": 87,
+      "top1": 46,
+      "top3": 66,
+      "top5": 69
+    },
+    "P_s1": {
+      "n": 87,
+      "top1": 44,
+      "top3": 60,
+      "top5": 65
+    },
+    "P_s2": {
+      "n": 87,
+      "top1": 40,
+      "top3": 58,
+      "top5": 62
+    },
+    "P_s3": {
+      "n": 87,
+      "top1": 48,
+      "top3": 62,
+      "top5": 66
+    },
+    "P_s4": {
+      "n": 87,
+      "top1": 43,
+      "top3": 58,
+      "top5": 63
+    },
+    "P_s5": {
+      "n": 87,
+      "top1": 39,
+      "top3": 62,
+      "top5": 64
+    }
+  },
+  "stats": {
+    "Ax1": {
+      "top1": {
+        "mean": 0.5172,
+        "sd": 0.0163
+      },
+      "top3": {
+        "mean": 0.7172,
+        "sd": 0.0403
+      },
+      "top5": {
+        "mean": 0.7678,
+        "sd": 0.0262
+      }
+    },
+    "P": {
+      "top1": {
+        "mean": 0.492,
+        "sd": 0.041
+      },
+      "top3": {
+        "mean": 0.6897,
+        "sd": 0.023
+      },
+      "top5": {
+        "mean": 0.7356,
+        "sd": 0.0182
+      }
+    }
+  },
+  "mcnemar_per_seed": [
+    {
+      "seed": 1,
+      "a_right_p_wrong": 6,
+      "p_right_a_wrong": 6,
+      "p": 1.0
+    },
+    {
+      "seed": 2,
+      "a_right_p_wrong": 10,
+      "p_right_a_wrong": 4,
+      "p": 0.1796
+    },
+    {
+      "seed": 3,
+      "a_right_p_wrong": 5,
+      "p_right_a_wrong": 7,
+      "p": 0.7744
+    },
+    {
+      "seed": 4,
+      "a_right_p_wrong": 6,
+      "p_right_a_wrong": 6,
+      "p": 1.0
+    },
+    {
+      "seed": 5,
+      "a_right_p_wrong": 12,
+      "p_right_a_wrong": 5,
+      "p": 0.1435
+    }
+  ],
+  "mcnemar_pooled": {
+    "both": 186,
+    "a_only": 39,
+    "p_only": 28,
+    "neither": 182
+  }
+}
