@@ -1,0 +1,95 @@
+{
+ "generated": "2026-09-19",
+ "dataset": "CPC (NEJM/MGH case records), 87 cases",
+ "model": "qwen3.8-flash",
+ "note": "Per-case total_tokens of the two matched control arms of main-text Table 4. Each arm was run over the same 87 CPC cases and the same five seeds; every row carries a total_tokens field, so the mean ± SD below is pooled over all case-seed rows (n = 87 x 5 = 435). A×5 uses the Borda-aggregated list (top5) of the five samples per case-seed; the total is the sum of the tokens of those five calls, not of a sixth aggregation call.",
+ "arms": {
+  "A×5": {
+   "description": "Borda aggregation of five independent samples (T=0.7), total_tokens summed over the five calls of each case-seed",
+   "calls_per_case": 5,
+   "n_rows": 435,
+   "n_cases": 87,
+   "n_seeds": 5,
+   "mean_total_tokens": 14223.7,
+   "sd_total_tokens": 6332.7,
+   "per_seed": {
+    "s1": {
+     "n": 87,
+     "mean": 14245.5,
+     "sd": 6362.5
+    },
+    "s2": {
+     "n": 87,
+     "mean": 14282.5,
+     "sd": 6325.0
+    },
+    "s3": {
+     "n": 87,
+     "mean": 14192.5,
+     "sd": 6373.9
+    },
+    "s4": {
+     "n": 87,
+     "mean": 14193.7,
+     "sd": 6365.1
+    },
+    "s5": {
+     "n": 87,
+     "mean": 14204.0,
+     "sd": 6383.4
+    }
+   },
+   "source_files": [
+    "routing_study/results/topn_seeds_ax5/Ax5_s1.jsonl",
+    "routing_study/results/topn_seeds_ax5/Ax5_s2.jsonl",
+    "routing_study/results/topn_seeds_ax5/Ax5_s3.jsonl",
+    "routing_study/results/topn_seeds_ax5/Ax5_s4.jsonl",
+    "routing_study/results/topn_seeds_ax5/Ax5_s5.jsonl"
+   ]
+  },
+  "A×1+CoT": {
+   "description": "single call with a short step-by-step justification before the ranked list, total_tokens of that call",
+   "calls_per_case": 1,
+   "n_rows": 435,
+   "n_cases": 87,
+   "n_seeds": 5,
+   "mean_total_tokens": 3499.4,
+   "sd_total_tokens": 1421.4,
+   "per_seed": {
+    "s1": {
+     "n": 87,
+     "mean": 3491.2,
+     "sd": 1391.8
+    },
+    "s2": {
+     "n": 87,
+     "mean": 3501.9,
+     "sd": 1455.9
+    },
+    "s3": {
+     "n": 87,
+     "mean": 3491.2,
+     "sd": 1402.3
+    },
+    "s4": {
+     "n": 87,
+     "mean": 3511.9,
+     "sd": 1396.0
+    },
+    "s5": {
+     "n": 87,
+     "mean": 3500.9,
+     "sd": 1491.3
+    }
+   },
+   "source_files": [
+    "routing_study/results/topn_seeds_cot/Ax1cot_s1.jsonl",
+    "routing_study/results/topn_seeds_cot/Ax1cot_s2.jsonl",
+    "routing_study/results/topn_seeds_cot/Ax1cot_s3.jsonl",
+    "routing_study/results/topn_seeds_cot/Ax1cot_s4.jsonl",
+    "routing_study/results/topn_seeds_cot/Ax1cot_s5.jsonl"
+   ],
+   "reasoning_note": "The A×1+CoT rows also carry reasoning_chars; across the 435 calls the justification averaged 2,713 characters (minimum 982; no empty justification)."
+  }
+ }
+}

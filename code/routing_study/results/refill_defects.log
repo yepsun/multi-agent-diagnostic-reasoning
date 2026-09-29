@@ -1,0 +1,105 @@
+### 2400B P refill 2026年 9月19日 星期六 09时28分53秒 CST
+待补 5 行: [(2, '068_Case_r'), (4, '008_CASE_R'), (4, '001_Case_3'), (4, '082_Case_r'), (5, '069_Case_r')]
+  [LLM] qwen call took 21.9s, tokens: 2648
+  008_CASE_RECOR s4: n_items=5 tokens=2648
+  [LLM] qwen call took 22.8s, tokens: 5688
+  068_Case_recor s2: n_items=5 tokens=5688
+  [LLM] qwen call took 23.7s, tokens: 5523
+  001_Case_30-20 s4: n_items=5 tokens=5523
+  [LLM] qwen call took 19.9s, tokens: 3053
+  082_Case_recor s4: n_items=5 tokens=3053
+  [LLM] qwen call took 24.2s, tokens: 5436
+  069_Case_recor s5: n_items=5 tokens=5436
+P_s4.jsonl: 重写 87 行，剩余空输出 0（备份 .bak_prefill）
+P_s2.jsonl: 重写 87 行，剩余空输出 0（备份 .bak_prefill）
+P_s5.jsonl: 重写 87 行，剩余空输出 0（备份 .bak_prefill）
+EXIT_2400B=0
+### MCR MDT repair 2026年 9月19日 星期六 09时29分40秒 CST
+[MCR s1] 空角色行 5: [('MCR-PMC29054', 'Skeptic / Ch'), ('MCR-PMC23905', 'Attending In'), ('MCR-PMC88034', 'Imaging & La'), ('MCR-PMC98327', 'Attending In'), ('MCR-PMC11821', 'Attending In')]
+  [LLM] qwen call took 6.5s, tokens: 1108
+  [角色补跑] MCR-PMC9832730 Attending Inte: n=5
+  [LLM] qwen call took 6.6s, tokens: 1072
+  [角色补跑] MCR-PMC8803407 Imaging & Labo: n=5
+  [LLM] qwen call took 6.6s, tokens: 1118
+  [角色补跑] MCR-PMC2905431 Skeptic / Chal: n=5
+  [LLM] qwen call took 7.4s, tokens: 869
+  [角色补跑] MCR-PMC2390576 Attending Inte: n=5
+  [LLM] qwen call took 6.4s, tokens: 937
+  [角色补跑] MCR-PMC1182135 Attending Inte: n=5
+[MCR s1] roles 重写完成，剩余空行 0
+[MCR s1] 需重新合成 5 例
+  [LLM] qwen call took 2.7s, tokens: 2321
+  [LLM] qwen call took 2.9s, tokens: 2371
+  [LLM] qwen call took 2.9s, tokens: 2135
+  [LLM] qwen call took 3.1s, tokens: 1994
+  [LLM] qwen call took 3.0s, tokens: 2144
+  [合成] MCR-PMC8803407: ['Infectious Endophthalmitis (likely Fungal or Atypical Mycobacterial/Nocardia)'] -> ['Granulomatosis with Polyangiitis (GPA)']
+  [合成] MCR-PMC2905431: ['Hepatocellular carcinoma with spontaneous rupture and hemoperitoneum'] -> ['Hepatocellular carcinoma with spontaneous rupture and hemoperitoneum']
+  [合成] MCR-PMC1182135: ['PFAPA Syndrome (Periodic Fever, Aphthous Stomatitis, Pharyngitis, Adenitis)'] -> ['PFAPA syndrome (Periodic Fever, Aphthous stomatitis, Pharyngitis, Adenitis)']
+  [合成] MCR-PMC2390576: ['Renal Arteriovenous Malformation (AVM)'] -> ['Upper Tract Urothelial Carcinoma (UTUC)']
+  [合成] MCR-PMC9832730: ['Kawasaki Disease (Incomplete/Atypical)'] -> ['Kawasaki Disease (Incomplete/Atypical)']
+[MCR s1] synth 重写完成（406 行）
+[MCR s2] 空角色行 5: [('MCR-PMC40821', 'Imaging & La'), ('MCR-PMC88908', 'Attending In'), ('MCR-PMC75460', 'Attending In'), ('MCR-PMC53683', 'Epidemiologi'), ('MCR-PMC88177', 'Skeptic / Ch')]
+  [LLM] qwen call took 4.9s, tokens: 970
+  [角色补跑] MCR-PMC5368394 Epidemiologist: n=5
+  [LLM] qwen call took 5.0s, tokens: 776
+  [角色补跑] MCR-PMC7546059 Attending Inte: n=5
+  [LLM] qwen call took 5.5s, tokens: 1116
+  [角色补跑] MCR-PMC8890859 Attending Inte: n=5
+  [LLM] qwen call took 7.1s, tokens: 1157
+  [角色补跑] MCR-PMC4082171 Imaging & Labo: n=5
+  [LLM] qwen call took 7.0s, tokens: 933
+  [角色补跑] MCR-PMC8817719 Skeptic / Chal: n=5
+[MCR s2] roles 重写完成，剩余空行 0
+[MCR s2] 需重新合成 5 例
+  [LLM] qwen call took 2.2s, tokens: 2045
+  [LLM] qwen call took 2.6s, tokens: 1760
+  [LLM] qwen call took 3.2s, tokens: 2328
+  [LLM] qwen call took 3.7s, tokens: 2116
+  [LLM] qwen call took 3.1s, tokens: 2364
+  [合成] MCR-PMC5368394: ['Mycobacterium marinum infection'] -> ['Sporotrichosis']
+  [合成] MCR-PMC7546059: ['Neurogenic tumor (Schwannoma or Neurofibroma)'] -> ['Neurogenic tumor (Schwannoma or Neurofibroma)']
+  [合成] MCR-PMC4082171: ['Synthetic Cannabinoid Toxicity'] -> ['Synthetic Cannabinoid Toxicity']
+  [合成] MCR-PMC8817719: ['Secondary Syphilis'] -> ['Secondary Syphilis']
+  [合成] MCR-PMC8890859: ['Multisystem Inflammatory Syndrome in Children (MIS-C) secondary to SARS-CoV-2'] -> ['Multisystem Inflammatory Syndrome in Children (MIS-C) secondary to SARS-CoV-2']
+[MCR s2] synth 重写完成（406 行）
+[MCR s3] 空角色行 1: [('MCR-PMC39344', 'Skeptic / Ch')]
+  [LLM] qwen call took 6.0s, tokens: 872
+  [角色补跑] MCR-PMC3934455 Skeptic / Chal: n=5
+[MCR s3] roles 重写完成，剩余空行 0
+[MCR s3] 需重新合成 1 例
+  [LLM] qwen call took 2.4s, tokens: 1968
+  [合成] MCR-PMC3934455: ['Generalized Arterial Calcification of Infancy (GACI)'] -> ['Generalized Arterial Calcification of Infancy (GACI)']
+[MCR s3] synth 重写完成（406 行）
+[MCR s4] 空角色行 1: [('MCR-PMC54918', 'Attending In')]
+  [LLM] qwen call took 5.5s, tokens: 930
+  [角色补跑] MCR-PMC5491825 Attending Inte: n=5
+[MCR s4] roles 重写完成，剩余空行 0
+[MCR s4] 需重新合成 1 例
+  [LLM] qwen call took 4.0s, tokens: 2185
+  [合成] MCR-PMC5491825: ['Mycobacterium avium complex (MAC) tenosynovitis'] -> ['Mycobacterium avium complex (MAC) tenosynovitis']
+[MCR s4] synth 重写完成（406 行）
+[MCR s5] 空角色行 4: [('MCR-PMC45121', 'Skeptic / Ch'), ('MCR-PMC90925', 'Pathophysiol'), ('MCR-PMC77018', 'Skeptic / Ch'), ('MCR-PMC11215', 'Skeptic / Ch')]
+  [LLM] qwen call took 6.5s, tokens: 1127
+  [角色补跑] MCR-PMC4512128 Skeptic / Chal: n=5
+  [LLM] qwen call took 6.6s, tokens: 949
+  [角色补跑] MCR-PMC7701895 Skeptic / Chal: n=5
+  [LLM] qwen call took 6.7s, tokens: 959
+  [角色补跑] MCR-PMC9092518 Pathophysiolog: n=5
+  [LLM] qwen call took 9.8s, tokens: 1026
+  [角色补跑] MCR-PMC1121581 Skeptic / Chal: n=5
+[MCR s5] roles 重写完成，剩余空行 0
+[MCR s5] 需重新合成 4 例
+  [LLM] qwen call took 2.3s, tokens: 2179
+  [LLM] qwen call took 2.9s, tokens: 2286
+  [LLM] qwen call took 2.9s, tokens: 2313
+  [LLM] qwen call took 2.9s, tokens: 2199
+  [合成] MCR-PMC4512128: ['Cleidocranial Dysplasia'] -> ['Cleidocranial Dysplasia']
+  [合成] MCR-PMC1121581: ['Diabetic Muscle Infarction (DMI)'] -> ['Diabetic Muscle Infarction (DMI)']
+  [合成] MCR-PMC9092518: ['Exaggerated Placental Site (EPS) / Exaggerated Placental Site Nodule'] -> ['Exaggerated Placental Site (EPS) / Exaggerated Placental Site Nodule (EPSN)']
+  [合成] MCR-PMC7701895: ['Mucocutaneous Lupus Erythematosus (DLE) with Ocular Involvement'] -> ['Mucocutaneous Lupus Erythematosus (DLE) with Ocular Involvement']
+[MCR s5] synth 重写完成（406 行）
+EXIT_MCR=0
+### dsflash s2 repair 2026年 9月19日 星期六 09时30分47秒 CST
+[dsflash s2] 无空角色行，跳过
+EXIT_DS=0

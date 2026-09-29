@@ -16,6 +16,12 @@ ER-Reason.
   data use agreement.
 - `data/runs/` — per-case outputs for the CPC and MedCaseReasoning arms
   (case identifiers one-way hashed; ER-Reason per-case outputs are not included).
+- `code/routing_study/results/` — provenance artifacts cited in the manuscript:
+  the byte-exact prompt text actually sent, with SHA-256 fingerprints of each
+  prompt constant (`prompt_actually_sent.md`); the per-arm token accounting for
+  the matched CPC control arms (`token_costs/control_arms_tokens.json`); and the
+  post-run data-integrity repair log (`refill_defects.log`). No case text, no
+  ER-Reason-derived content.
 
 ## Not included
 - ER-Reason source data and per-case outputs (DUA; apply via PhysioNet).
